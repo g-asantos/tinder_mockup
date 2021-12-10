@@ -72,8 +72,11 @@ class HomePage extends StatelessWidget {
                   height: 48,
                   child: ElevatedButton.icon(
                     onPressed: () {},
-                    icon: const Icon(MdiIcons.apple),
-                    label: const Text('SIGN IN WITH APPLE'),
+                    icon: const Icon(
+                      MdiIcons.apple,
+                    ),
+                    label: const Text(
+                        '                      SIGN IN WITH APPLE                              '),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
@@ -94,7 +97,8 @@ class HomePage extends StatelessWidget {
                   child: ElevatedButton.icon(
                     onPressed: () {},
                     icon: const Icon(Icons.facebook),
-                    label: const Text('SIGN IN WITH FACEBOOK'),
+                    label: const Text(
+                        '                    SIGN IN WITH FACEBOOK                              '),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
@@ -115,7 +119,8 @@ class HomePage extends StatelessWidget {
                   child: ElevatedButton.icon(
                     onPressed: () {},
                     icon: const Icon(MdiIcons.chat),
-                    label: const Text('SIGN IN WITH PHONE NUMBER'),
+                    label: const Text(
+                        '                SIGN IN WITH PHONE NUMBER                              '),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
