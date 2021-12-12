@@ -70,13 +70,19 @@ class HomePage extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   height: 48,
-                  child: ElevatedButton.icon(
-                    onPressed: () {},
-                    icon: const Icon(
-                      MdiIcons.apple,
+                  child: ElevatedButton(
+                    child: Row(
+                      children: const [
+                        Icon(
+                          MdiIcons.apple,
+                        ),
+                        SizedBox(
+                          width: 80,
+                        ),
+                        Text('SIGN IN WITH APPLE'),
+                      ],
                     ),
-                    label: const Text(
-                        '                      SIGN IN WITH APPLE                              '),
+                    onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
@@ -94,11 +100,17 @@ class HomePage extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   height: 48,
-                  child: ElevatedButton.icon(
+                  child: ElevatedButton(
+                    child: Row(
+                      children: const [
+                        Icon(Icons.facebook),
+                        SizedBox(
+                          width: 70,
+                        ),
+                        Text('SIGN IN WITH FACEBOOK')
+                      ],
+                    ),
                     onPressed: () {},
-                    icon: const Icon(Icons.facebook),
-                    label: const Text(
-                        '                    SIGN IN WITH FACEBOOK                              '),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
@@ -116,11 +128,17 @@ class HomePage extends StatelessWidget {
                 Container(
                   width: double.infinity,
                   height: 48,
-                  child: ElevatedButton.icon(
+                  child: ElevatedButton(
+                    child: Row(
+                      children: const [
+                        Icon(MdiIcons.chat),
+                        SizedBox(
+                          width: 52,
+                        ),
+                        Text('SIGN IN WITH PHONE NUMBER')
+                      ],
+                    ),
                     onPressed: () {},
-                    icon: const Icon(MdiIcons.chat),
-                    label: const Text(
-                        '                SIGN IN WITH PHONE NUMBER                              '),
                     style: ElevatedButton.styleFrom(
                       shape: const StadiumBorder(),
                       side: const BorderSide(
